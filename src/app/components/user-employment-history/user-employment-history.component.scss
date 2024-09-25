@@ -1,0 +1,54 @@
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ds-dt-text-primary);
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid var(--ds-dt-border-primary);
+}
+
+.education-items-container {
+  border-left: 1.5px solid var(--ds-dt-border-primary);
+  padding: 0 15px 0 15px;
+  position: relative;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  margin-bottom: 20px;
+  color: var(--ds-dt-text-primary);
+}
+
+.item-header {
+  font-size: 16px;
+}
+
+.item-desc {
+  font-size: 14px;
+}
+
+.item-years {
+  font-size: 12px;
+  color: var(--ds-dt-border-primary);
+}
+
+.item::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--ds-dt-border-primary);
+  position: absolute;
+  left: -20.5px; /* Adjusted to center the circle on the border */
+  top: 50%; /* Center the circle vertically */
+  transform: translateY(-50%); /* Corrects for the circle's height */
+}
