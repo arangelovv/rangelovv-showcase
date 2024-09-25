@@ -1,0 +1,49 @@
+.chip-container {
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.angular {
+  border: 1px solid #e76eab;
+  background-color: rgba(231, 110, 171, 0.311);
+  border-radius: 20px;
+  color: #e76eab;
+}
+
+.css {
+  border: 1px solid #5b8fdc;
+  background-color: rgba(91, 143, 220, 0.311);
+  border-radius: 20px;
+  color: #5b8fdc;
+}
+
+.firebase {
+  border: 1px solid #dcb15b;
+  background-color: rgba(220, 177, 91, 0.311);
+  border-radius: 20px;
+  color: #dcb15b;
+}
+
+.tailwind {
+  border: 1px solid #5bcbdc;
+  background-color: rgba(91, 203, 220, 0.311);
+  border-radius: 20px;
+  color: #5bcbdc;
+}
+
+.material-symbols-outlined.chip {
+  font-size: 12px;
+}
+
+.tech-logo {
+  width: 15px;
+  height: 15px;
+}

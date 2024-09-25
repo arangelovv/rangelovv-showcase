@@ -1,1 +1,20 @@
-<p>project-technology-chip works!</p>
+<div
+  [ngClass]="{
+    angular: tech === 'Angular',
+    css: tech === 'CSS',
+    firebase: tech === 'Firebase',
+    tailwind: tech === 'Tailwind'
+  }"
+  class="chip-container"
+>
+  @if (tech == 'Angular') {
+  <img src="angular.png" alt="" class="tech-logo" />
+  } @else if (tech == 'CSS') {
+  <img src="css.png" alt="" class="tech-logo" />
+  }@else if (tech == 'Firebase') {
+  <img src="firebase.png" alt="" class="tech-logo" />
+  } @else if (tech == 'Tailwind') {
+  <img src="tailwind.png" alt="" class="tech-logo" />
+  }
+  <span>{{ tech }}</span>
+</div>
