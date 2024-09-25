@@ -9,6 +9,11 @@ import { NgClass } from '@angular/common';
   styleUrl: './project-technology-chip.component.scss',
 })
 export class ProjectTechnologyChipComponent {
-  @Input() tech: 'Angular' | 'CSS' | 'Firebase' | 'Tailwind' | 'default' =
-    'default';
+  @Input() tech:
+    | 'Angular'
+    | 'CSS'
+    | 'Firebase'
+    | 'Tailwind'
+    | 'APIs'
+    | 'default' = 'default';
 }
