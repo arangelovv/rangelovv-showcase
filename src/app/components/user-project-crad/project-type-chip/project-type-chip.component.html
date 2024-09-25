@@ -1,1 +1,14 @@
-<p>project-type-chip works!</p>
+<div
+  [ngClass]="{
+    'web-app-chip': projectType === 'web-app',
+    'game-chip': projectType === 'game'
+  }"
+  class="chip-container"
+>
+  @if (projectType == 'web-app') {
+  <span class="material-symbols-outlined chip"> laptop_mac </span>
+  } @else if (projectType == 'game') {
+  <span class="material-symbols-outlined chip"> sports_esports </span>
+  }
+  <span>{{ projectType }}</span>
+</div>

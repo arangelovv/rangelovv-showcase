@@ -1,0 +1,28 @@
+.chip-container {
+  width: max-content;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.web-app-chip {
+  border: 1px solid #6ee7b7;
+  background-color: rgba(110, 231, 183, 0.311);
+  border-radius: 20px;
+  color: #6ee7b7;
+}
+
+.game-chip {
+  border: 1px solid #a86ee7;
+  background-color: rgba(168, 110, 231, 0.311);
+  border-radius: 20px;
+  color: #a86ee7;
+}
+
+.material-symbols-outlined.chip {
+  font-size: 12px;
+}
