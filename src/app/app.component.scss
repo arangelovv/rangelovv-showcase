@@ -2,23 +2,25 @@
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
   display: flex;
   gap: 5%;
 }
 
 .app-leftpanel-container {
-  width: 25%;
+  width: 17.5%;
 }
 
 .app-central-container {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
 
 .app-rightpanel-container {
-  width: 25%;
+  width: 17.5%;
   display: flex;
   flex-direction: column;
 }
