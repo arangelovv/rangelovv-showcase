@@ -1,0 +1,14 @@
+<a
+  [href]="mediaLink"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="social-button"
+>
+  @if (socialMedia == 'Github') {
+  <img src="github.png" class="social-icon" />
+  }@else if (socialMedia == 'LinkedIn') {
+  <img src="linkedin.png" class="social-icon" />
+
+  }
+  {{ socialMedia }}
+</a>
