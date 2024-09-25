@@ -1,1 +1,31 @@
-<span>user-project-crad works!</span>
+<div class="project-card-container">
+  <div class="project-header">
+    <div class="project-title">
+      <a [href]="projectLink" target="_blank" rel="noopener noreferrer">{{
+        projectName
+      }}</a>
+      <ng-content select="[project-type]"></ng-content>
+    </div>
+    <div class="project-links">
+      @if (repoLink) {
+      <ds-repo-button [mediaLink]="repoLink"></ds-repo-button>
+      }
+      <a
+        [href]="projectLink"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-project-button"
+      >
+        <span class="material-symbols-outlined"> open_in_new </span>
+      </a>
+    </div>
+  </div>
+
+  <div class="proect-description">
+    <ng-content select="[proect-description]"></ng-content>
+  </div>
+
+  <div class="project-footer">
+    <ng-content select="[project-tech-chip]"></ng-content>
+  </div>
+</div>
