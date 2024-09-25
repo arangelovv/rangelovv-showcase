@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-user-certificates',
+  selector: 'ds-user-certificates',
   standalone: true,
   imports: [],
   templateUrl: './user-certificates.component.html',
-  styleUrl: './user-certificates.component.scss'
+  styleUrl: './user-certificates.component.scss',
 })
-export class UserCertificatesComponent {
-
-}
+export class UserCertificatesComponent {}
